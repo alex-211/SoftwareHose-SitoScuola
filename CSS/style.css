@@ -1,3 +1,12 @@
+:root
+{
+    --primary:#1a70a2;
+    --bg:#eae7f4;
+    --secondary:#fcfcfd;
+    --accent:#1a2da2;
+    --txt:#0e0b18;
+}
+
 .less-padding {
     padding: 10px 10px;
 }
@@ -6,3 +15,27 @@
     padding-top: 50px;
 }
 
+.custom-bg
+{
+    background-color: var(--bg);
+}
+
+.custom-primary
+{
+    background-color:var(--primary);
+}
+
+.custom-secondary
+{
+    background-color:var(--secondary);
+}
+
+.custom-accent
+{
+    background-color: var(--accent);
+}
+
+.custom-txt
+{
+    color: var(--txt);
+}

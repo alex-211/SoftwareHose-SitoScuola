@@ -3,48 +3,107 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="icon" type="image/x-icon" href="IMAGES/logo_dark.png">
-        <!--Bootstrap 3.3.7 CDN-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <!--end-->
-        <link rel="stylesheet" href="CSS/style.css">
-        <title>Aperture Software</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="IMAGES/logo_dark.png">
+    <!-- Bootstrap 3.3.7 CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- end -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Aperture Software</title>
+</head>
   
-  <body>
+<body>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="#">
                     <img src="IMAGES/logo_dark.png" alt="Logo" width="100%" height="100%">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                      </button>
-                      <a class="navbar-brand" href="#">Aperture Software Division</a>
-
-                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prodotti<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="PAGES/turret-companion.html">Turret Companion App</a></li>
-                              <li role="separator" class="divider"></li>
-                              <li><a class="dropdown-item" href="PAGES/glados.html">GLaDOS</a></li>
-                              <li role="separator" class="divider"></li>
-                              <li><a href="PAGES/tsn.html">Test Subject Network</a></li>
-                            </ul>
-                          </li>
-                        </ul>
                 </a>
+                <a class="navbar-brand custom-txt" href="#">Aperture Software Division</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prodotti<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="PAGES/turret-companion.html">Turret Companion App</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a class="dropdown-item" href="PAGES/glados.html">GLaDOS</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="PAGES/tsn.html">Test Subject Network</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Compagnia<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item disabled" href=""><strong>Contattaci</strong></a></li>
+                            <li><a class="dropdown-item" href="PAGES/COMPANY/consumer-support.html">Supporto consumatori</a></li>
+                            <li><a class="dropdown-item" href="PAGES/COMPANY/corporate-support.html">Supporto software aziendale</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a class="dropdown-item disabled" href=""><strong>Reclutamento</strong></a></li>
+                            <li><a class="dropdown-item" href="">Al momento non stiano assumendo</a></li>
+                            <li><a class="dropdown-item" href="https://drive.google.com/u/0/uc?id=1003SN4P4O8yaRIbaELNXgT5WwCTJcrwB&export=download">Diventa un Test Subject per Aperture Science Laboratories</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a class="dropdown-item disabled" href=""><strong>Filosofia aziendale</strong></a></li>
+                            <li><a class="dropdown-item" href="PAGES/COMPANY/sustainability.html">Sostenibilità</a></li>
+                            <li><a class="dropdown-item" href="PAGES/COMPANY/employees.html">Dipendenti</a></li>
+                            <li><a class="dropdown-item" href="PAGES/COMPANY/legal.html">Sezione legale</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
-  </body>
-  </hmtl>
+    <div class="jumbotron">
+        <div class="container">
+            <div style="display: inline;" class="row">
+                <h1 class="col-md-10" style="padding-top: 45px; padding-left: 0; color: #1a70a2;">Facciamo quello che possiamo, perché dobbiamo.</h1>
+                <img class="col-md-2" src="IMAGES/bendy.png" alt="Bendy waving at you!" height="8%" width="8%">
+            </div>
+            <p style="display:inline; float: left; text-align: left; padding-top: 5px;">Aperture Science Laboratories, da anni leader nel settore scientifico e tecnologico, fonda la division per lo sviluppo di software informatico</p>
+            <a class="btn btn-default btn-lg" style="background-color: #1a2da2; color: #eae7f4; display: inline; float: left;" href="https://aperturescience.com" role="button">Scopri di più sul gruppo Aperture »</a>
+        </div>
+    </div>
+    <div style="background-color:#1a70a2; padding: 10px; border-radius: 10px;">
+        <h2 style="text-align: center; color: #fcfcfd;">Aperture Software per i consumatori</h2>
+    </div>
+    <h3 style="text-align: center;">I nostri software più popolari:</h3>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" style="text-align: center;">
+                <img src="IMAGES/turret_icon.png" alt="Turrent Companio App icon" height="15%" width="15%">
+                <h2>Turret Companion App</h2>
+                <p>Le popolari torrette Aperture ora diventano smart! Controllale dal tuo smartphone e integrale con sistemi di Casa smart IoT</p>
+                <a class="btn btn-default" style="background-color: #1a2da2; color: #eae7f4;" href="PAGES/turret-companion.html" role="button">Scopri di più »</a>
+            </div>
+            <div class="col-md-4" style="text-align: center;">
+                <img src="IMAGES/glados_icon.png" alt="GLaDOS icon" height="15%" width="15%">
+                <h2>GLaDOS</h2>
+                <p>La vostra intelligenza artificiale omicida preferita arriva su dispositivi mobile per aiutarvi con faccende di tutti i giorni e più!</p>
+                <a class="btn btn-default" style="background-color: #1a2da2; color: #eae7f4;" href="PAGES/glados.html" role="button">Scopri di più »</a>
+            </div>
+            <div class="col-md-4" style="text-align: center;">
+                <img src="IMAGES/tsn_icon.png" alt="Test Subject Network icon" height="15%" width="15%">
+                <h2>Test Subject Network</h2>
+                <p>Connettiti con il Mondo Aperture: accedi ai risulati dei tuoi test, contatta i nostri scienziati ed altri Test Subject. Consulta il tuo companion Cube in qualsiasi momento!</p>
+                <a class="btn btn-default" style="background-color: #1a2da2; color: #eae7f4;" href="PAGES/tsn.html">Scopri di più »</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div style="background-color:#1a70a2; padding: 10px; border-radius: 10px;">
+        <h2 style="text-align: center; color: #fcfcfd;">Aperture Software per le aziende</h2>
+    </div>
+    <h3 style="text-align: center;">Perché scegliere Aperture?</h3>
+</body>
+</html>
