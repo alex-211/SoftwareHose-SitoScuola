@@ -2,14 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="icon" type="image/x-icon" href="IMAGES/logo_dark.png">
+    <link rel="icon" type="image/x-icon" href="../IMAGES/logo_dark.png">
     <!-- Bootstrap 3.3.7 CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- end -->
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>Aperture Software</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Turret Companion</title>
 </head>
   
 <body>
@@ -23,7 +23,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                    <img src="IMAGES/logo_dark.png" alt="Logo" width="100%" height="100%">
+                    <img src="../IMAGES/logo_dark.png" alt="Logo" width="100%" height="100%">
                 </a>
                 <a class="navbar-brand custom-txt" href="#">Aperture Software Division</a>
             </div>
@@ -32,32 +32,58 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prodotti<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="PAGES/turret-companion.html">Turret Companion App</a></li>
+                            <li><a class="dropdown-item" href="#"><em>Turret Companion App</em></a></li> <!--is em even good? how do i say "you're on this page!"??-->
                             <li role="separator" class="divider"></li>
-                            <li><a class="dropdown-item" href="PAGES/glados.html">GLaDOS</a></li>
+                            <li><a class="dropdown-item" href="glados.html">GLaDOS</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="PAGES/tsn.html">Test Subject Network</a></li>
+                            <li><a href="tsn.html">Test Subject Network</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Compagnia<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item disabled" href=""><strong>Contattaci</strong></a></li>
-                            <li><a class="dropdown-item" href="PAGES/COMPANY/consumer-support.html">Supporto consumatori</a></li>
-                            <li><a class="dropdown-item" href="PAGES/COMPANY/corporate-support.html">Supporto software aziendale</a></li>
+                            <li><a class="dropdown-item" href="COMPANY/consumer-support.html">Supporto consumatori</a></li>
+                            <li><a class="dropdown-item" href="COMPANY/corporate-support.html">Supporto software aziendale</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a class="dropdown-item disabled" href=""><strong>Reclutamento</strong></a></li>
                             <li><a class="dropdown-item" href="">Al momento non stiano assumendo</a></li>
                             <li><a class="dropdown-item" href="https://drive.google.com/u/0/uc?id=1003SN4P4O8yaRIbaELNXgT5WwCTJcrwB&export=download">Diventa un Test Subject per Aperture Science Laboratories</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a class="dropdown-item disabled" href=""><strong>Filosofia aziendale</strong></a></li>
-                            <li><a class="dropdown-item" href="PAGES/COMPANY/sustainability.html">Sostenibilità</a></li>
-                            <li><a class="dropdown-item" href="PAGES/COMPANY/employees.html">Dipendenti</a></li>
-                            <li><a class="dropdown-item" href="PAGES/COMPANY/legal.html">Sezione legale</a></li>
+                            <li><a class="dropdown-item" href="COMPANY/sustainability.html">Sostenibilità</a></li>
+                            <li><a class="dropdown-item" href="COMPANY/employees.html">Dipendenti</a></li>
+                            <li><a class="dropdown-item" href="COMPANY/legal.html">Sezione legale</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <div class="jumbotron">
+        <div class="container">
+            <div style="display: inline;" class="row">
+                <h1 class="col-md-10" style="padding-top: 45px; padding-left: 0; color: #1a70a2;">La Potenza delle Torrette nella Tua Mano!</h1>
+                <img class="col-md-2" src="../IMAGES/turret_icon.png" alt="Turret Companion icon" height="10%" width="10%"> <!--FIX ME, the icon positioning, ask cosmin-->
+            </div>
+            <p style="display:inline; float: left; text-align: left; padding-top: 5px;">Con la nostra nuova app comanda in remoto la tua torretta ed aggiungila ai tuoi sistemi IoT</p>
+            <div class="row">
+                <div class="col-md-12">
+                    <p><span class="glyphicon glyphicon-chevron-down jiggling-icon"></span>Scopri di più!</p> <!--FIX ME, the jiggglin, ask cosmin-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h3>Titolo</h3> 
+            <p>Paragrafo</p>
+            <!--this shit is squashed to the edge of the scree, fix: padding or maybe float or margin-->
+        </div>
+        <div class="col-md-4">
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fi21nm6RYn9G0LDuWFKa6lu%2FTurret-companion-App%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-2%26viewport%3D666%252C437%252C0.82%26scaling%3Dscale-down" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!--embed looks shit, find a better solution-->
+</body>
     
