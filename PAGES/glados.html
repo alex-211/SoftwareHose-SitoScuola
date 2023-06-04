@@ -1,62 +1,227 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <link rel="icon" type="image/x-icon" href="IMAGES/logo_dark.png">
-    <!-- Bootstrap 3.3.7 CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- end -->
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>Aperture Software</title>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/x-icon" href="../IMAGES/logo_dark.png">
+  <!-- Bootstrap 3.3.7 CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- end -->
+  <link rel="stylesheet" href="../CSS/style.css">
+  <title>GLaDOS</title>
 </head>
-  
+
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                    <img src="IMAGES/logo_dark.png" alt="Logo" width="100%" height="100%">
-                </a>
-                <a class="navbar-brand custom-txt" href="#">Aperture Software Division</a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prodotti<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="PAGES/turret-companion.html">Turret Companion App</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a class="dropdown-item" href="PAGES/glados.html">GLaDOS</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="PAGES/tsn.html">Test Subject Network</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Compagnia<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item disabled" href=""><strong>Contattaci</strong></a></li>
-                            <li><a class="dropdown-item" href="PAGES/COMPANY/consumer-support.html">Supporto consumatori</a></li>
-                            <li><a class="dropdown-item" href="PAGES/COMPANY/corporate-support.html">Supporto software aziendale</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a class="dropdown-item disabled" href=""><strong>Reclutamento</strong></a></li>
-                            <li><a class="dropdown-item" href="">Al momento non stiano assumendo</a></li>
-                            <li><a class="dropdown-item" href="https://drive.google.com/u/0/uc?id=1003SN4P4O8yaRIbaELNXgT5WwCTJcrwB&export=download">Diventa un Test Subject per Aperture Science Laboratories</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a class="dropdown-item disabled" href=""><strong>Filosofia aziendale</strong></a></li>
-                            <li><a class="dropdown-item" href="PAGES/COMPANY/sustainability.html">Sostenibilità</a></li>
-                            <li><a class="dropdown-item" href="PAGES/COMPANY/employees.html">Dipendenti</a></li>
-                            <li><a class="dropdown-item" href="PAGES/COMPANY/legal.html">Sezione legale</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">
+          <img src="../IMAGES/logo_dark.png" alt="Logo" width="100%" height="100%">
+        </a>
+        <a class="navbar-brand custom-txt" href="../index.html">Aperture Software Division</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Prodotti<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="turret-companion.html">Turret Companion App</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a class="dropdown-item" href="#"><em>GLaDOS</em></a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="tsn.html">Test Subject Network</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Compagnia<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item disabled" href=""><strong>Contattaci</strong></a></li>
+              <li><a class="dropdown-item" href="COMPANY/consumer-support.html">Supporto consumatori</a></li>
+              <li><a class="dropdown-item" href="COMPANY/corporate-support.html">Supporto software aziendale</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a class="dropdown-item disabled" href=""><strong>Reclutamento</strong></a></li>
+              <li><a class="dropdown-item" href="">Al momento non stiano assumendo</a></li>
+              <li><a class="dropdown-item"
+                  href="https://drive.google.com/u/0/uc?id=1003SN4P4O8yaRIbaELNXgT5WwCTJcrwB&export=download">Diventa un
+                  Test Subject per Aperture Science Laboratories</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a class="dropdown-item disabled" href=""><strong>Filosofia aziendale</strong></a></li>
+              <li><a class="dropdown-item" href="COMPANY/sustainability.html">Sostenibilità</a></li>
+              <li><a class="dropdown-item" href="COMPANY/employees.html">Dipendenti</a></li>
+              <li><a class="dropdown-item" href="COMPANY/legal.html">Sezione legale</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <div class="container">
+      <div style="display: inline;" class="row">
+        <h1 class="col-md-10" style="padding-top: 45px; padding-left: 0; color: #1a70a2;">Il tuo assistente omicida
+          preferito su mobile!</h1>
+        <img class="col-md-2" src="../IMAGES/glados.png" alt="Turret Companion icon" height="10%" width="10%"
+          style="padding-top: 6%;"> 
+      </div>
+      <p style="display:inline; float: left; text-align: left; padding-top: 5px;">Da oggi su tutte le piattaforme mobile
+        è disponibile il vostro assistente omicida preferito: GLaDOS! Accedete alla sua immensa sapienza ovunque siate
+      </p>
+      <div class="row">
+        <div class="col-md-12">
+          <p><span class="glyphicon glyphicon-chevron-down jiggling-icon"></span>Scopri di più!</p>
         </div>
-    </nav>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin:2%; border:dotted; border-color:#1a70a2;">
+    <div class="col-md-8" style="padding-left: 19%;">
+      <h2>Fatti aiutare da GLaDOS nelle faccende di tutti i giorni!</h2>
+      <ul>
+        <li>
+          <h3>Creazione di test chamber</h3>Diventa un esperto ingeniere grazie ad un'app
+        </li>
+        <li>
+          <h3>Omicidi</h3>GLaDOS è un ottimo assistente all'omicidio (sempre che non uccida te)
+        </li>
+        <li>
+          <h3>Promemoria</h3>GLaDOS ti aiuterà a ricordare tutto (anche le cose negative)
+        </li>
+        <li>
+          <h3>Cultura generale</h3>Non hai cultura generale? GLaDOS risponderà alle tue domande (e ti giudicherà)
+        </li>
+        <li>
+          <h3>Gestione dispositivo</h3>Controlla senza mani il tuo dispositivo (GLaDOS potrebbe hackerarlo)
+        </li>
+        <li>
+          <h3>E tanto di più...</h3>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <img src="../IMAGES/glados_prot.png" alt="application screenshot" height="50%" width="50%">
+    </div>
+  </div>
+  <h2 style="text-align: center;">Alcune domande/risposte fatte a GLaDOS</h2>
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"
+    style="padding-left: 20%; padding-right: 20%;">
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="heading1">
+        <h4 class="panel-title">
+          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true"
+            aria-controls="collapse1">
+            "Crea un test chamber per me!"
+          </a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+        <div class="panel-body">
+          "Farò in modo che tu non ci esca vivo."
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="heading2">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2"
+            aria-expanded="false" aria-controls="collapse2">
+            "Ricordami di portare fuori il cane"
+          </a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+        <div class="panel-body">
+          "Non preoccuparti, non lo dimenticherai."
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="heading3">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3"
+            aria-expanded="false" aria-controls="collapse3">
+            "Qual'è la capitale dell'Uganda?"
+          </a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+        <div class="panel-body">
+          "Kampala, ovviamente. Non sei molto colto, vero?"
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="heading3">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4"
+            aria-expanded="false" aria-controls="collapse3">
+            "Accendi il Bluetooth"
+          </a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+        <div class="panel-body">
+          "Fatto. Ora posso hackerare il tuo dispositivo."
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4" style="text-align: center;">
+      <h2>Fatti aiutare: Scarica ora!</h2>
+    </div>
+    <div class="col-md-4">
+      <img src="../IMAGES/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store!"
+        height="45%" width="45%" style="padding-top: 15px;">
+    </div>
+    <div class="col-md-4">
+      <img src="../IMAGES/google-play-badge.png" alt="Get it on Google Play!" height="55%" width="55%">
+    </div>
+  </div>
+  <footer class="footer" style="background-color: #bbcbd4;">
+    <div class="contaier">
+      <div class="row">
+        <div class="col-md-4">
+          <h3 style="padding-left: 25px;">Privacy</h3>
+          <ul>
+            <li>Privacy Policy</li>
+            <li>Cookies</li>
+            <li>US Government privacy law compliance</li>
+            <li>EU GDPR compliance</li>
+
+          </ul>
+          <a class="text-muted" style="padding-left: 25px;"><span class="glyphicon glyphicon-copyright-mark"></span>
+            2023 Aperture Laboratories Group, Inc.</a>
+          <br>
+          <a class="text-muted" style="padding-left: 25px;">Apple® and Apple logo® are trademarks of Apple Inc.</a>
+          <br>
+          <a class="text-muted" style="padding-left: 25px;">Google Play and the Google Play logo are trademarks of
+            Google LLC.</a>
+
+        </div>
+        <div class="col-md-4">
+          <h3 style="padding-left: 25px;">Info su di noi</h3>
+          <ul>
+            <li><span class="glyphicon glyphicon-globe"></span> 330 Wells Street, Chicago IL 60606</li>
+            <li><span class="glyphicon glyphicon-earphone"></span> +1 773 569 7984</li>
+            <li><span class="glyphicon glyphicon-envelope"></span> enquiries@aperture.software.com</li>
+            <li><span class="glyphicon glyphicon-time"></span> Lun-Ven 09:00 -> 17:00</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
